@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Nunito:wght@200;300;400;500;600;700&family=Raleway:wght@200;300;400;500;600;700&display=swap");
+.sidebar__wrapper {
+  background: #181818;
+  width: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 0.5s;
+  z-index: 4;
+  min-height: 100vh;
+  height: 100%;
+
+  .sidebar__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 20px 0;
+  }
+
+  .sidebar__logo {
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+    a {
+      text-align: center;
+      font-family: "Nunito", sans-serif;
+    }
+
+    a h1 {
+      color: #fff;
+      width: 50px;
+      height: 50px;
+      margin: 0 auto;
+      text-shadow: 0px 0 10px #ffd700;
+    }
+
+    p {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #ffd700;
+      letter-spacing: 4px;
+      text-align: center;
+      line-height: 30px;
+
+      @media screen and (max-width: 768px) {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.sidebar__menu {
+  ul li {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 3.5em;
+    padding: 0;
+
+    @media screen and (max-width: 768px) {
+      font-size: 2.5em;
+    }
+
+    .active svg {
+      path {
+        fill: #ffd700;
+      }
+    }
+
+    &:nth-child(2) {
+      a {
+        &::after {
+          content: "About";
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      a {
+        &::after {
+          content: "Projects";
+        }
+      }
+    }
+
+    &:nth-child(4) {
+      a {
+        &::after {
+          content: "Contact";
+        }
+      }
+    }
+
+    a {
+      svg {
+        width: 50%;
+        transition: 0.3s;
+
+        path {
+          fill: #fff;
+        }
+      }
+      position: relative;
+
+      &::after {
+        content: "Home";
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #fff;
+        letter-spacing: 4px;
+        text-align: center;
+        line-height: 30px;
+        margin-top: 10px;
+        transition: 0.3s;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        transform: translateX(15px);
+        background: #ffd700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 4;
+        padding: 0.5em;
+        border-radius: 5px;
+        opacity: 0;
+        text-transform: uppercase;
+        visibility: hidden;
+        @media screen and (max-width: 786px) {
+          top: -9px;
+        }
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        transform: translateY(-50%);
+        border: 5px solid transparent;
+        border-right: 5px solid #ffd700;
+        opacity: 0;
+      }
+
+      &:hover {
+        svg {
+          path {
+            fill: #ffd700;
+          }
+        }
+
+        &::after {
+          opacity: 1;
+          transform: translateX(10px);
+          visibility: visible;
+        }
+
+        &::before {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.sidebar__social {
+  ul li {
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+
+    a {
+      font-size: 3.5em;
+
+      @media screen and (max-width: 768px) {
+        font-size: 2.5em;
+      }
+
+      svg {
+        width: 25%;
+        transition: 0.3s;
+
+        @media screen and (max-width: 768px) {
+          width: 50%;
+        }
+
+        path {
+          fill: #fff;
+        }
+
+        &:hover {
+          path {
+            fill: #ffd700;
+          }
+        }
+      }
+
+      &::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #ffd700;
+        transition: width 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+
+      &:hover {
+        &::after {
+          width: 100%;
+          left: 0;
+        }
+      }
+    }
+  }
+}
