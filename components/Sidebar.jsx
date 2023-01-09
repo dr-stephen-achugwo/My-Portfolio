@@ -88,7 +88,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://fb.me/artisticsplendor"
+                href="https://web.facebook.com/sirsteve17"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -97,7 +97,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/company/artisticsplendor/?viewAsMember=true"
+                href="https://www.linkedin.com/in/dr-stephen-achugwo-6945ba26/"
                 target="_blank"
                 rel="noreferrer"
               >
