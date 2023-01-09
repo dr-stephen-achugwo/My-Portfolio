@@ -70,7 +70,7 @@ const Sidebar = () => {
           <ul>
             <li>
               <a
-                href="https://github.com/Temitayo-spec"
+                href="https://github.com/dr-stephen-achugwo"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -79,7 +79,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://twitter.com/OlawanleTemita1"
+                href="https://twitter.com/StephenAchugwo"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -88,7 +88,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://twitter.com/OlawanleTemita1"
+                href="https://fb.me/artisticsplendor"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -97,7 +97,7 @@ const Sidebar = () => {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/temitayo-spec/"
+                href="https://www.linkedin.com/company/artisticsplendor/?viewAsMember=true"
                 target="_blank"
                 rel="noreferrer"
               >

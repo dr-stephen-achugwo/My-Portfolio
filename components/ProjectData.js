@@ -4,13 +4,13 @@ export const dataList = [
     title: "My Portfolio",
     description: "My portfolio website, built with Next.js, Redux Toolkit for state management, Node.js and Express for the backend server, MongoDB for the database.✨🎉",
     image: "/screenshots/Portfolio1a.jpg",
-    link: "",
+    link: "https://my-portfolio-drstephen.vercel.app/",
     github: "https://github.com/dr-stephen-achugwo/My-Portfolio",
   },
   {
     id: 2,
     title: "Global Weather App",
-    description: "A Weather application built with Next.js and React.😍",
+    description: "A Weather application built with Next.js 😍 React.✨🎉",
     image: "/screenshots/Weather-App.png",
     link: "https://nextjs-weather-app-pearl.vercel.app/",
     github: "https://github.com/dr-stephen-achugwo/Nextjs-Weather-App",
@@ -66,7 +66,7 @@ export const dataList = [
   {
     id: 9,
     title: "Caesar-Cipher1",
-    description: "✨🎉Caesar-Cipher",
+    description: "Caesar-Cipher✨🎉",
     image: "/screenshots/Caesar-Cipher1.png",
     link: "https://art1app.com/pages/appz/Caesar-Cipher1.html",
     github: "https://github.com/dr-stephen/Caesar-Cipher",
@@ -74,7 +74,7 @@ export const dataList = [
   {
     id: 10,
     title: "Caesar-Cipher2",
-    description: "✨🎉Caesar-Cipher2",
+    description: "Caesar-Cipher2✨🎉",
     image: "/screenshots/Caesar-Cipher2.png",
     link: "https://art1app.com/pages/appz/Caesar-Cipher2.html",
     github: "https://github.com/dr-stephen/Caesar-Cipher",
@@ -82,7 +82,7 @@ export const dataList = [
   {
     id: 11,
     title: "Caesar-Cipher3",
-    description: "✨🎉Caesar-Cipher3",
+    description: "Caesar-Cipher3✨🎉",
     image: "/screenshots/Caesar-Cipher3.png",
     link: "https://art1app.com/pages/appz/Caesar-Cipher3.html",
     github: "https://github.com/dr-stephen/Caesar-Cipher",
@@ -90,7 +90,7 @@ export const dataList = [
   {
     id: 12,
     title: "Background Color-Changer",
-    description: "✨🎉Background Color-Changer",
+    description: "Background Color-Changer✨🎉",
     image: "/screenshots/BgColor-Changer.png",
     link: "https://art1app.com/mini-apps/BgColorChanger/index.html",
     github: "https://github.com/dr-stephen/BgColorChanger",
@@ -99,7 +99,7 @@ export const dataList = [
   {
     id: 13,
     title: "Background Image Slider2",
-    description: "✨🎉Background Image Slider2",
+    description: "Background Image Slider2✨🎉",
     image: "/screenshots/BgImageSlider2.jpg",
     link: "https://art1app.com/mini-apps/BgImageSlider2/index.html",
     github: "https://github.com/dr-stephen/BgImageSlider",
@@ -107,7 +107,7 @@ export const dataList = [
   {
     id: 14,
     title: "Background Image Slider",
-    description: "✨🎉Background Image Slider",
+    description: "Background Image Slider✨🎉",
     image: "/screenshots/img-slider.jpg",
     link: "https://art1app.com/mini-apps/BgImageSlider/index.html",
     github: "https://github.com/dr-stephen/BgImageSlider",
