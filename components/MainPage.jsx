@@ -43,10 +43,10 @@ const MainPage = () => {
             />
             {/* <span>.</span> */}
           </h1>
-          <h2>Frontend Developer / Visual Artist</h2>
+          <h2>Full Stack Developer / Visual Artist</h2>
           <p>
-            app developer with a passion for programming and designing
-            <br /><span>........ coding and building beautiful functional websites ........</span>
+            app developer with a passion for aesthetics and design
+            <br /><span>programming, coding and building beautiful functional websites ...</span>
           </p>
           <div className={styles.links__ctn}>
             <Link href="/contact">
